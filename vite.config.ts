@@ -7,8 +7,13 @@ import path from 'node:path'
 
 const root = path.dirname(fileURLToPath(import.meta.url))
 
+// Use the repo sub-path on GitHub Pages; keep root for local dev.
+const isPages = process.env.GITHUB_PAGES === 'true'
+const base = isPages ? '/klaaswhite-smo-randomizer-tracker/' : '/'
+
 // https://vite.dev/config/
 export default defineConfig({
+  base,
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] }),
