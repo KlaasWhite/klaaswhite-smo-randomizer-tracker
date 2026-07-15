@@ -16,6 +16,7 @@ import { MoonContextMenu } from './context/MoonContextMenu'
 import { DoorContextMenu } from './context/DoorContextMenu'
 import { SubAreaContextMenu } from './context/SubAreaContextMenu'
 import { ConnectWizardMenu } from './context/ConnectWizardMenu'
+import { HiddenSubAreasPanel } from './HiddenSubAreasPanel'
 import { isHandleHidden } from './selection'
 
 const nodeTypes = { kingdom: KingdomNode }
@@ -107,6 +108,9 @@ function CanvasInner() {
           </Panel>
           <Panel position="top-left">
             <span className="panel-title">{config?.name ?? 'Loading…'}</span>
+          </Panel>
+          <Panel position="bottom-left">
+            <HiddenSubAreasPanel />
           </Panel>
         </ReactFlow>
         <DetailPanel />

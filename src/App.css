@@ -631,6 +631,72 @@
 .panel-btn:hover {
   background: var(--accent-border);
 }
+
+/* ---------- Hidden sub-areas panel (bottom-left) ---------- */
+.hidden-subareas-panel {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  padding: 10px;
+  width: 240px;
+  max-height: 40vh;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+.hsa-head {
+  margin-bottom: 8px;
+}
+.hsa-title {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-h);
+}
+.hsa-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.hsa-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background: var(--code-bg);
+  border-radius: 6px;
+  padding: 5px 8px;
+}
+.hsa-name {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  color: var(--text-h);
+  min-width: 0;
+}
+.hsa-kingdom {
+  font-size: 10px;
+  color: var(--text);
+  opacity: 0.7;
+}
+.hsa-unhide {
+  font: inherit;
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+.hsa-unhide:hover {
+  background: var(--accent-border);
+}
 .save-msg {
   font-size: 12px;
   color: var(--text-h);
