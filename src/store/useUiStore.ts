@@ -55,6 +55,24 @@ interface UiState {
   setShowHidden: (v: boolean) => void
 }
 
+const SHOW_HIDDEN_KEY = 'smo-show-hidden'
+
+function loadShowHidden(): boolean {
+  try {
+    return localStorage.getItem(SHOW_HIDDEN_KEY) === 'true'
+  } catch {
+    return false
+  }
+}
+
+function saveShowHidden(v: boolean) {
+  try {
+    localStorage.setItem(SHOW_HIDDEN_KEY, v ? 'true' : 'false')
+  } catch {
+    /* ignore */
+  }
+}
+
 const closedMoon: MoonMenuState = {
   open: false,
   x: 0,
@@ -94,7 +112,7 @@ export const useUiStore = create<UiState>((set) => ({
   connectMenu: closedConnect,
   subAreaMenu: closedSubArea,
   editorMode: false,
-  showHidden: false,
+  showHidden: loadShowHidden(),
   openMoonMenu: (s) =>
     set({
       moonMenu: { ...s, open: true },
@@ -128,5 +146,8 @@ export const useUiStore = create<UiState>((set) => ({
     }),
   closeSubAreaMenu: () => set({ subAreaMenu: closedSubArea }),
   setEditorMode: (v) => set({ editorMode: v }),
-  setShowHidden: (v) => set({ showHidden: v }),
+  setShowHidden: (v) => {
+    saveShowHidden(v)
+    set({ showHidden: v })
+  },
 }))

@@ -77,6 +77,7 @@ function buildGraph(config: TrackerConfig): { nodes: Node[]; edges: Edge[] } {
 }
 
 const progressKey = (configId: string) => `smo-progress::${configId}`
+const edgesKey = (configId: string) => `smo-edges::${configId}`
 
 function loadProgress(configId: string): Progress {
   try {
@@ -98,6 +99,24 @@ function loadProgress(configId: string): Progress {
 function saveProgress(configId: string, progress: Progress) {
   try {
     localStorage.setItem(progressKey(configId), JSON.stringify(progress))
+  } catch {
+    /* ignore */
+  }
+}
+
+function loadEdges(configId: string): Edge[] | null {
+  try {
+    const raw = localStorage.getItem(edgesKey(configId))
+    if (raw) return JSON.parse(raw) as Edge[]
+  } catch {
+    /* ignore */
+  }
+  return null
+}
+
+function saveEdges(configId: string, edges: Edge[]) {
+  try {
+    localStorage.setItem(edgesKey(configId), JSON.stringify(edges))
   } catch {
     /* ignore */
   }
@@ -147,8 +166,10 @@ export const useTrackerStore = create<TrackerState>((set, get) => ({
   loadConfig: async (url) => {
     const res = await fetch(url)
     const config = (await res.json()) as TrackerConfig
-    const { nodes, edges } = buildGraph(config)
+    const { nodes } = buildGraph(config)
     const progress = loadProgress(config.id)
+    // Restore previously drawn connections (survives refresh, not cleared by reset)
+    const edges = loadEdges(config.id) ?? []
     const kingdomColors: Record<string, string> = {}
     config.kingdoms.forEach((k) => {
       kingdomColors[k.id] = randomColor()
@@ -161,7 +182,9 @@ export const useTrackerStore = create<TrackerState>((set, get) => ({
   },
 
   onEdgesChange: (changes) => {
-    set({ edges: applyEdgeChanges(changes, get().edges) })
+    const edges = applyEdgeChanges(changes, get().edges)
+    if (get().config) saveEdges(get().config!.id, edges)
+    set({ edges })
   },
 
   onConnect: (connection) => {
@@ -193,13 +216,16 @@ export const useTrackerStore = create<TrackerState>((set, get) => ({
       // bidirectional edges get a double arrow marker
       markerStart: isBi ? { type: 'arrowclosed' } : undefined,
       className: isBi ? 'edge-bidirectional' : 'edge-oneway',
-      data: { bidirectional: isBi, related: false },
     }
-    set({ edges: addEdge(newEdge, edges) })
+    const next = addEdge(newEdge, edges)
+    if (get().config) saveEdges(get().config!.id, next)
+    set({ edges: next })
   },
 
   removeEdge: (edgeId) => {
-    set({ edges: get().edges.filter((e) => e.id !== edgeId) })
+    const edges = get().edges.filter((e) => e.id !== edgeId)
+    if (get().config) saveEdges(get().config!.id, edges)
+    set({ edges })
   },
 
   toggleSubAreaHidden: (subAreaId) => {
@@ -277,6 +303,11 @@ export const useTrackerStore = create<TrackerState>((set, get) => ({
   resetProgress: () => {
     const progress: Progress = { moons: {}, doorNotes: {}, hiddenSubAreas: {} }
     saveProgress(get().config!.id, progress)
+    // Reset clears moons/notes/hidden sub-areas AND drawn connections.
+    // (Connections still survive a plain refresh via the persisted edges key.)
+    if (get().config) {
+      saveEdges(get().config!.id, [])
+    }
     set({ progress, edges: [] })
   },
 }))

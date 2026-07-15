@@ -548,15 +548,7 @@
       "doors": [
         {
           "id": "kd-ElApnD",
-          "label": "DW Odyssey"
-        },
-        {
-          "id": "kd-3LEjMG",
-          "label": "DW Red Maze"
-        },
-        {
-          "id": "kd-PLkgAP",
-          "label": "DW Pond"
+          "label": "Deep Woods"
         },
         {
           "id": "kd-JWG_NB",
@@ -611,23 +603,15 @@
           "doors": [
             {
               "id": "wooded-ironentrance-d1",
-              "label": "DW Odyssey"
-            },
-            {
-              "id": "wooded-ironentrance-d2",
-              "label": "DW Red maze"
-            },
-            {
-              "id": "d-K-b0L2",
-              "label": "DW Pond"
+              "label": "Vine"
             },
             {
               "id": "d-58IosR",
-              "label": "DW Treasure"
+              "label": "Treasure"
             },
             {
               "id": "d-vWepwh",
-              "label": "DW Outfit"
+              "label": "Outfit"
             }
           ]
         },
