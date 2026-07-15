@@ -5,7 +5,7 @@ import './App.css'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path="/" element={<TrackerCanvas />} />
         <Route path="/editor" element={<EditorCanvas />} />
