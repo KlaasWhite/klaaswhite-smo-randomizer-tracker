@@ -56,7 +56,7 @@ function CanvasInner() {
   const didFit = useRef(false)
 
   useEffect(() => {
-    loadConfig('/config/smo-config.json')
+    loadConfig(import.meta.env.BASE_URL + 'config/smo-config.json')
   }, [loadConfig])
 
   useEffect(() => {

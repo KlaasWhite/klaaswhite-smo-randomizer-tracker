@@ -136,7 +136,7 @@ interface TrackerState {
 
 export const useTrackerStore = create<TrackerState>((set, get) => ({
   config: null,
-  configUrl: '/config/smo-config.json',
+  configUrl: import.meta.env.BASE_URL + 'config/smo-config.json',
   nodes: [],
   edges: [],
   progress: { moons: {}, doorNotes: {}, hiddenSubAreas: {} },

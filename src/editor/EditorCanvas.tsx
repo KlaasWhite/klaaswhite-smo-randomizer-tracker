@@ -16,7 +16,7 @@ function EditorInner() {
   // Load the config from the JSON file on mount
   useEffect(() => {
     let cancelled = false
-    fetch('/config/smo-config.json')
+    fetch(import.meta.env.BASE_URL + 'config/smo-config.json')
       .then((r) => r.json())
       .then((c: TrackerConfig) => {
         if (!cancelled) setConfig(c)
