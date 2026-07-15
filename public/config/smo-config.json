@@ -1,0 +1,2331 @@
+{
+  "id": "smo-rando-v1",
+  "name": "SMO Randomizer Tracker",
+  "kingdoms": [
+    {
+      "id": "cap",
+      "name": "Cap Kingdom",
+      "doors": [
+        {
+          "id": "kd-_bHbi-",
+          "label": "Orange"
+        },
+        {
+          "id": "kd-rUIb2W",
+          "label": "Paragoomba"
+        },
+        {
+          "id": "kd-9GYpYn",
+          "label": "Frog"
+        },
+        {
+          "id": "kd-EfH3bt",
+          "label": "Rolling"
+        }
+      ],
+      "subAreas": [
+        {
+          "id": "cap-poisontide",
+          "name": "Orange",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "cap-poisontide-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "cap-poisontide-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "cap-pushblock",
+          "name": "Paragoomba",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "cap-pushblock-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "cap-pushblock-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "cap-frogpond",
+          "name": "Frog",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "cap-frogpond-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "cap-slipslide",
+          "name": "Rolling",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "cap-slipslide-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "cap-slipslide-d2",
+              "label": "Exit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cascade",
+      "name": "Cascade Kingdom",
+      "doors": [
+        {
+          "id": "kd-_W2xUW",
+          "label": "Painting in cave"
+        },
+        {
+          "id": "kd-XD6Uom",
+          "label": "Painting on floating island"
+        },
+        {
+          "id": "kd-nM8zvX",
+          "label": "Dino"
+        },
+        {
+          "id": "kd-RhH6_v",
+          "label": "2D"
+        },
+        {
+          "id": "kd-4lF8tn",
+          "label": "Chain chomp"
+        },
+        {
+          "id": "kd-VOoZ1f",
+          "label": "Swings"
+        },
+        {
+          "id": "kd-u_ip3l",
+          "label": "Windy"
+        }
+      ],
+      "subAreas": [
+        {
+          "id": "cas-waterfall",
+          "name": "Dino",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "cas-waterfall-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "sa-W-pqXs",
+          "name": "2D",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "d-_uJQ6p",
+              "label": "Entrance"
+            },
+            {
+              "id": "d-PGvYoO",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "sa-3PY2hk",
+          "name": "Chain chomp",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "d-EQLyvY",
+              "label": "Entrance"
+            },
+            {
+              "id": "d--x5MW8",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "sa-k8yZn4",
+          "name": "Swings",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "d-K1ESAj",
+              "label": "Entrance"
+            },
+            {
+              "id": "d-uDmFGi",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "sa-BQ-oHK",
+          "name": "Windy",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "d-G1Lgxn",
+              "label": "Entrance"
+            },
+            {
+              "id": "d--GkilW",
+              "label": "Exit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sand",
+      "name": "Sand Kingdom",
+      "doors": [
+        {
+          "id": "sand-entry",
+          "label": "Icy cave (hole in ruins)"
+        },
+        {
+          "id": "kd-iK_Dr9",
+          "label": "Moe-eye (Cap door)"
+        },
+        {
+          "id": "kd-IeEuWE",
+          "label": "Shop"
+        },
+        {
+          "id": "kd-BcEUjO",
+          "label": "Employees only"
+        },
+        {
+          "id": "kd-DZpEWw",
+          "label": "Slots"
+        },
+        {
+          "id": "kd-Rz70FT",
+          "label": "Rumble"
+        },
+        {
+          "id": "kd-0Cf1vJ",
+          "label": "Costume"
+        },
+        {
+          "id": "kd-X9gEgV",
+          "label": "Jaxi ruins"
+        },
+        {
+          "id": "kd-WIpuRv",
+          "label": "Bullet building"
+        },
+        {
+          "id": "kd-DJ5xmN",
+          "label": "Gushen"
+        },
+        {
+          "id": "kd-951lGO",
+          "label": "Sphynx"
+        },
+        {
+          "id": "kd-VrOPBj",
+          "label": "Moving platform"
+        },
+        {
+          "id": "kd-D2FT0e",
+          "label": "Rocket"
+        },
+        {
+          "id": "kd-8WeNcV",
+          "label": "Colossal Ruins"
+        }
+      ],
+      "subAreas": [
+        {
+          "id": "sand-town",
+          "name": "Icy cave",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "sand-town-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "sand-town-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "sand-ruinsentrance",
+          "name": "Moe-eye",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "sand-ruinsentrance-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "sand-ruinsentrance-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "sand-sandpillar",
+          "name": "Shop",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "sand-sandpillar-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "sand-roundtower",
+          "name": "Employees only",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "sand-roundtower-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "sand-moeeye",
+          "name": "Slots",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "sand-moeeye-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "sand-jaxiruins",
+          "name": "Rumble",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "sand-jaxiruins-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "sand-northwest",
+          "name": "Outfit",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "sand-northwest-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "sand-desertoasis",
+          "name": "Jaxi ruins",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "sand-desertoasis-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "sand-desertoasis-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "sand-southwestfloat",
+          "name": "Bullet building",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "sand-southwestfloat-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "sand-southwestfloat-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "sand-slots",
+          "name": "Sphynx",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "sand-slots-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "sand-icecave",
+          "name": "Gushen",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "sand-icecave-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "sand-icecave-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "sand-sphynxvault",
+          "name": "Moving platform",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "sand-sphynxvault-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "sand-sphynxvault-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "sand-rumblingfloor",
+          "name": "Rocket",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "sand-rumblingfloor-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "sand-rumblingfloor-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "sand-dance",
+          "name": "Colossal ruins",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "sand-dance-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "sand-dance-d2",
+              "label": "Exit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lake",
+      "name": "Lake Kingdom",
+      "doors": [
+        {
+          "id": "lake-entry",
+          "label": "Poison waves"
+        },
+        {
+          "id": "kd-110UMg",
+          "label": "Zipper"
+        },
+        {
+          "id": "kd-FjLF4X",
+          "label": "Grab climb"
+        },
+        {
+          "id": "kd-8WyaZc",
+          "label": "Shop"
+        },
+        {
+          "id": "kd-pwfIwC",
+          "label": "Puzzle"
+        },
+        {
+          "id": "kd-V7w7w_",
+          "label": "Painting (pond)"
+        },
+        {
+          "id": "kd-UJV1Q5",
+          "label": "Painting (overlooking)"
+        }
+      ],
+      "subAreas": [
+        {
+          "id": "lake-underwater",
+          "name": "Poisen waves",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "lake-underwater-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "lake-underwater-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "lake-courtyard",
+          "name": "Zipper",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "lake-courtyard-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "lake-courtyard-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "lake-waterplazaentrance",
+          "name": "Grab climb",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "lake-waterplazaentrance-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "lake-waterplazaentrance-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "lake-displaywindow",
+          "name": "Shop",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "lake-displaywindow-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "lake-terrace",
+          "name": "Puzzle",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "lake-terrace-d1",
+              "label": "Entrance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wooded",
+      "name": "Wooded Kingdom",
+      "doors": [
+        {
+          "id": "kd-ElApnD",
+          "label": "DW Odyssey"
+        },
+        {
+          "id": "kd-3LEjMG",
+          "label": "DW Red Maze"
+        },
+        {
+          "id": "kd-PLkgAP",
+          "label": "DW Pond"
+        },
+        {
+          "id": "kd-JWG_NB",
+          "label": "Rocket"
+        },
+        {
+          "id": "kd-Vrnn-y",
+          "label": "Sheep"
+        },
+        {
+          "id": "kd-mhzPXC",
+          "label": "Tank"
+        },
+        {
+          "id": "kd-Dyz3ul",
+          "label": "Vine clouds"
+        },
+        {
+          "id": "kd-LOzC2Z",
+          "label": "Breakdown"
+        },
+        {
+          "id": "kd-_rBG8u",
+          "label": "Invisible maze"
+        },
+        {
+          "id": "kd-6ELFJp",
+          "label": "Flooded pipes"
+        },
+        {
+          "id": "kd-TpsIkN",
+          "label": "Flower road"
+        },
+        {
+          "id": "kd-VPfNAo",
+          "label": "Treasure room"
+        },
+        {
+          "id": "kd-yXVzmH",
+          "label": "Painting (cage)"
+        },
+        {
+          "id": "kd-IvU_OX",
+          "label": "Painting (luncheon)"
+        }
+      ],
+      "subAreas": [
+        {
+          "id": "wooded-ironentrance",
+          "name": "Deep woods",
+          "moonCount": 7,
+          "doors": [
+            {
+              "id": "wooded-ironentrance-d1",
+              "label": "DW Odyssey"
+            },
+            {
+              "id": "wooded-ironentrance-d2",
+              "label": "DW Red maze"
+            },
+            {
+              "id": "d-K-b0L2",
+              "label": "DW Pond"
+            },
+            {
+              "id": "d-58IosR",
+              "label": "DW Treasure"
+            },
+            {
+              "id": "d-vWepwh",
+              "label": "DW Outfit"
+            }
+          ]
+        },
+        {
+          "id": "wooded-ironhalfway",
+          "name": "DW Tressure",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "wooded-ironhalfway-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "wooded-skygarden",
+          "name": "DW outfit",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "wooded-skygarden-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "wooded-forestcharge",
+          "name": "Rocket",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "wooded-forestcharge-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "wooded-forestcharge-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "wooded-sumpath",
+          "name": "Sheep",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "wooded-sumpath-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "wooded-ironmountain",
+          "name": "Tank",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "wooded-ironmountain-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "wooded-ironmountain-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "wooded-station8",
+          "name": "Vine clouds",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "wooded-station8-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "wooded-secretflower",
+          "name": "Breakdown",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "wooded-secretflower-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "wooded-observation",
+          "name": "Invisible",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "wooded-observation-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "wooded-observation-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "wooded-ironcage",
+          "name": "Flooded pipes",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "wooded-ironcage-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "wooded-ironcage-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "wooded-treasureroom",
+          "name": "Flower road",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "wooded-treasureroom-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "wooded-treasureroom-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "wooded-treasurechesttree",
+          "name": "Treasure room",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "wooded-treasurechesttree-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "wooded-treasurechesttree-d2",
+              "label": "Exit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cloud",
+      "name": "Cloud Kingdom",
+      "doors": [
+        {
+          "id": "cloud-entry",
+          "label": "2D Cube"
+        },
+        {
+          "id": "kd-d_Knkq",
+          "label": "Picture match"
+        }
+      ],
+      "subAreas": [
+        {
+          "id": "cloud-goombapic",
+          "name": "Goomba Picture Match",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "cloud-goombapic-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "cloud-goombapic-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "cloud-8bitcube",
+          "name": "8-Bit Cube",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "cloud-8bitcube-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "cloud-8bitcube-d2",
+              "label": "Exit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lost",
+      "name": "Lost Kingdom",
+      "doors": [
+        {
+          "id": "lost-entry",
+          "label": "Wiggler"
+        },
+        {
+          "id": "kd-va8Y12",
+          "label": "Shop"
+        },
+        {
+          "id": "kd-dyC-XW",
+          "label": "Klepto"
+        }
+      ],
+      "subAreas": [
+        {
+          "id": "lost-swamphill",
+          "name": "Wiggler",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "lost-swamphill-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "lost-swamphill-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "lost-mountainside",
+          "name": "Shop",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "lost-mountainside-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "lost-rocky",
+          "name": "Klepto",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "lost-rocky-d1",
+              "label": "Entrance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metro",
+      "name": "Metro Kingdom",
+      "doors": [
+        {
+          "id": "metro-entry",
+          "label": "Yellow shop"
+        },
+        {
+          "id": "kd-2qn8d_",
+          "label": "Purple shop"
+        },
+        {
+          "id": "kd-L5Tnsg",
+          "label": "Dino"
+        },
+        {
+          "id": "kd-vGaBBe",
+          "label": "Bullet building"
+        },
+        {
+          "id": "kd-z1VH03",
+          "label": "Taxi"
+        },
+        {
+          "id": "kd-rjiQvZ",
+          "label": "Notes"
+        },
+        {
+          "id": "kd-4sMxsG",
+          "label": "2D"
+        },
+        {
+          "id": "kd-M-Khvj",
+          "label": "Slots"
+        },
+        {
+          "id": "kd-TYKMBp",
+          "label": "People"
+        },
+        {
+          "id": "kd-84eIif",
+          "label": "Outfit"
+        },
+        {
+          "id": "kd-YuLj1a",
+          "label": "Rocket"
+        },
+        {
+          "id": "kd-a1k-ay",
+          "label": "Dark"
+        },
+        {
+          "id": "kd-i4qeHl",
+          "label": "Scaffolding"
+        },
+        {
+          "id": "kd-5HiqTu",
+          "label": "Scooter"
+        },
+        {
+          "id": "kd-1X03RY",
+          "label": "Rotating maze"
+        },
+        {
+          "id": "kd-YIQukc",
+          "label": "RC car"
+        },
+        {
+          "id": "kd-L5EAmF",
+          "label": "Painting (odyssey)"
+        },
+        {
+          "id": "kd-CMbynb",
+          "label": "Painting (island)"
+        }
+      ],
+      "subAreas": [
+        {
+          "id": "metro-outskirts",
+          "name": "Shop",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "metro-outskirts-d1",
+              "label": "Yellow"
+            },
+            {
+              "id": "metro-outskirts-d2",
+              "label": "Purple"
+            }
+          ]
+        },
+        {
+          "id": "metro-rooftopgarden",
+          "name": "Dino",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "metro-rooftopgarden-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "metro-rooftopgarden-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "metro-construction",
+          "name": "Bullet building",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "metro-construction-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "metro-construction-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "metro-constructionaccess",
+          "name": "Taxi",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "metro-constructionaccess-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "metro-constructionaccess-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "metro-hallplaza",
+          "name": "Notes",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "metro-hallplaza-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "metro-hallrooftop",
+          "name": "2D",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "metro-hallrooftop-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "metro-paulinepark",
+          "name": "Slots",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "metro-paulinepark-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "metro-cafe",
+          "name": "People",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "metro-cafe-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "metro-cafe-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "metro-heliport",
+          "name": "Outfit",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "metro-heliport-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "metro-heliport-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "metro-isolatedroof",
+          "name": "Rocket",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "metro-isolatedroof-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "metro-isolatedroof-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "metro-slots",
+          "name": "Dark",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "metro-slots-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "metro-rccar",
+          "name": "Scaffolding",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "metro-rccar-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "metro-rccar-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "metro-private",
+          "name": "Scooter",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "metro-private-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "metro-private-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "metro-alley",
+          "name": "Rotating maze",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "metro-alley-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "metro-wiring",
+          "name": "RC car",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "metro-wiring-d1",
+              "label": "Entrance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "snow",
+      "name": "Snow Kingdom",
+      "doors": [
+        {
+          "id": "snow-entry",
+          "label": "Painting (dram)"
+        },
+        {
+          "id": "snow-paint",
+          "label": "Painting (not dram)"
+        },
+        {
+          "id": "kd-JCWJ3z",
+          "label": "Puzzle"
+        },
+        {
+          "id": "kd-6AeUEn",
+          "label": "Capless"
+        },
+        {
+          "id": "kd-8NoWjV",
+          "label": "Rocket flower"
+        },
+        {
+          "id": "kd-VZpJeH",
+          "label": "Iceburn circuit"
+        },
+        {
+          "id": "kd-5RoC4F",
+          "label": "Flower road"
+        },
+        {
+          "id": "kd-9oGgCQ",
+          "label": "Tracewalking"
+        },
+        {
+          "id": "kd-uljMh5",
+          "label": "Clouds"
+        },
+        {
+          "id": "kd-XHQzPb",
+          "label": "Outfit"
+        },
+        {
+          "id": "kd-ARkldv",
+          "label": "Shop"
+        }
+      ],
+      "subAreas": [
+        {
+          "id": "snow-icewell",
+          "name": "Puzzle",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "snow-icewell-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "snow-freezingsea",
+          "name": "Capless",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "snow-freezingsea-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "snow-freezingsea-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "snow-clifftop",
+          "name": "Rocket flower",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "snow-clifftop-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "snow-clifftop-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "snow-tracewalk",
+          "name": "Iceburn circuit",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "snow-tracewalk-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "snow-freezingpath",
+          "name": "Flower road",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "snow-freezingpath-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "snow-freezingpath-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "snow-freezingcave",
+          "name": "Tracewalking",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "snow-freezingcave-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "snow-woodenblock",
+          "name": "Clouds",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "snow-woodenblock-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "snow-coldroom",
+          "name": "Outfit",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "snow-coldroom-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "snow-skytornado",
+          "name": "Shop",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "snow-skytornado-d1",
+              "label": "Entrance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seaside",
+      "name": "Seaside Kingdom",
+      "doors": [
+        {
+          "id": "seaside-entry",
+          "label": "Painting (glass)"
+        },
+        {
+          "id": "seaside-paint-glass",
+          "label": "Paiting (overhang)"
+        },
+        {
+          "id": "kd-eChnab",
+          "label": "Rumble"
+        },
+        {
+          "id": "kd-7BaZnk",
+          "label": "Rocket"
+        },
+        {
+          "id": "kd-kSPxvX",
+          "label": "Outfit"
+        },
+        {
+          "id": "kd-joN4qW",
+          "label": "Gushen (next to painting)"
+        },
+        {
+          "id": "kd-Ceo-Qg",
+          "label": "Sphynx"
+        },
+        {
+          "id": "kd-gN_eX7",
+          "label": "Pokio"
+        },
+        {
+          "id": "kd-a71yMG",
+          "label": "Lava rising"
+        },
+        {
+          "id": "kd-wt2KUv",
+          "label": "Sandy bottom"
+        },
+        {
+          "id": "kd-vG2uX9",
+          "label": "Spinning maze"
+        }
+      ],
+      "subAreas": [
+        {
+          "id": "seaside-beachhouse",
+          "name": "Rumble",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "seaside-beachhouse-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "seaside-lighthouse",
+          "name": "Rocket",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "seaside-lighthouse-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "seaside-lighthouse-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "seaside-hotspring",
+          "name": "Outfit",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "seaside-hotspring-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "seaside-rollingcanyon",
+          "name": "Gushen",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "seaside-rollingcanyon-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "seaside-rollingcanyon-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "seaside-aboverolling",
+          "name": "Sphynx",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "seaside-aboverolling-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "seaside-glasspalace",
+          "name": "Pokio",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "seaside-glasspalace-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "seaside-glasspalace-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "seaside-trenchwest",
+          "name": "Lava rising",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "seaside-trenchwest-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "seaside-trenchwest-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "seaside-trencheast",
+          "name": "Sandy bottom",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "seaside-trencheast-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "seaside-diving",
+          "name": "Spinning maze",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "seaside-diving-d1",
+              "label": "Entrance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "luncheon",
+      "name": "Luncheon Kingdom",
+      "doors": [
+        {
+          "id": "luncheon-entry",
+          "label": "Painting (Brunchen)"
+        },
+        {
+          "id": "luncheon-paint-remote",
+          "label": "Painting (veggies)"
+        },
+        {
+          "id": "kd-XePSrM",
+          "label": "Magma swamp"
+        },
+        {
+          "id": "kd-LifQ15",
+          "label": "Forks"
+        },
+        {
+          "id": "kd-6LiOKN",
+          "label": "Cheese rocks"
+        },
+        {
+          "id": "kd-JglMhQ",
+          "label": "Veggie room"
+        },
+        {
+          "id": "kd-sIyE2X",
+          "label": "Slots"
+        },
+        {
+          "id": "kd-mF2Pfd",
+          "label": "Shop"
+        },
+        {
+          "id": "kd-nMARrf",
+          "label": "Outfit"
+        },
+        {
+          "id": "kd-gHnU_1",
+          "label": "Spinning athlethics"
+        },
+        {
+          "id": "kd-Jo5cFj",
+          "label": "Lava islands"
+        },
+        {
+          "id": "kd-e9MUwz",
+          "label": "Volcano cave"
+        },
+        {
+          "id": "kd-vVUoRk",
+          "label": "Gears"
+        },
+        {
+          "id": "kd-UVLAQg",
+          "label": "Magma path"
+        }
+      ],
+      "subAreas": [
+        {
+          "id": "luncheon-peronza",
+          "name": "Magma swamp",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "luncheon-peronza-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "luncheon-peronza-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "luncheon-meatpath",
+          "name": "Forks",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "luncheon-meatpath-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "luncheon-meatpath-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "luncheon-meatplateau",
+          "name": "Cheese rocks",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "luncheon-meatplateau-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "luncheon-volcanocave",
+          "name": "Slots",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "luncheon-volcanocave-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "luncheon-peakclimbstart",
+          "name": "Shop",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "luncheon-peakclimbstart-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "luncheon-peakclimbtop",
+          "name": "Veggie room",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "luncheon-peakclimbtop-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "luncheon-saltpile",
+          "name": "Outfit",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "luncheon-saltpile-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "luncheon-saltpile-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "luncheon-remotelava",
+          "name": "Spinning atheletics",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "luncheon-remotelava-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "luncheon-remotelava-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "luncheon-floatingsky",
+          "name": "Lava islands",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "luncheon-floatingsky-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "luncheon-floatingsky-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "luncheon-slots",
+          "name": "Volcano cave",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "luncheon-slots-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "luncheon-slots-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "luncheon-simmering",
+          "name": "Gears",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "luncheon-simmering-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "luncheon-simmering-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "luncheon-magmaswamp",
+          "name": "Magma path",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "luncheon-magmaswamp-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "luncheon-magmaswamp-d2",
+              "label": "Exit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ruined",
+      "name": "Ruined Kingdom",
+      "doors": [
+        {
+          "id": "ruined-entry",
+          "label": "Chargin chuck"
+        },
+        {
+          "id": "kd-zk4qIa",
+          "label": "Rocket"
+        }
+      ],
+      "subAreas": [
+        {
+          "id": "ruined-roulette",
+          "name": "Chargin chuck",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "ruined-roulette-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "ruined-roulette-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "ruined-chincho",
+          "name": "Rocket",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "ruined-chincho-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "ruined-chincho-d2",
+              "label": "Exit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bowser",
+      "name": "Bowser's Kingdom",
+      "doors": [
+        {
+          "id": "bowser-entry",
+          "label": "Painting (floating island)"
+        },
+        {
+          "id": "bowser-paint",
+          "label": "Painting (double battle)"
+        },
+        {
+          "id": "kd-ICiyms",
+          "label": "Jizo"
+        },
+        {
+          "id": "kd-BSCjuZ",
+          "label": "Shop"
+        },
+        {
+          "id": "kd-NRmjiq",
+          "label": "Outfit"
+        },
+        {
+          "id": "kd-1Jqkbd",
+          "label": "Treasure room"
+        },
+        {
+          "id": "kd-V9Y_VI",
+          "label": "Spinning tower"
+        },
+        {
+          "id": "kd-v9QveT",
+          "label": "Vine clouds"
+        },
+        {
+          "id": "kd-EKR86W",
+          "label": "Hexagon tower"
+        },
+        {
+          "id": "kd-ZwuXA7",
+          "label": "Wooden tower"
+        }
+      ],
+      "subAreas": [
+        {
+          "id": "bowser-thirdfront",
+          "name": "Jizo",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "bowser-thirdfront-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "bowser-thirdfront-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "bowser-thirdrear",
+          "name": "Shop",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "bowser-thirdrear-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "bowser-second",
+          "name": "Outfit",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "bowser-second-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "bowser-souvenir",
+          "name": "Treasure room",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "bowser-souvenir-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "bowser-mainentrance",
+          "name": "Spinning tower",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "bowser-mainentrance-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "bowser-mainentrance-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "bowser-main",
+          "name": "Vice clouds",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "bowser-main-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "bowser-outerwall",
+          "name": "Hexagon tower",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "bowser-outerwall-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "bowser-innerwall",
+          "name": "Wooden tower",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "bowser-innerwall-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "bowser-innerwall-d2",
+              "label": "Exit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moon",
+      "name": "Moon Kingdom",
+      "doors": [
+        {
+          "id": "kd-tN8RRK",
+          "label": "2D snowman"
+        },
+        {
+          "id": "kd-WC0aql",
+          "label": "Shop"
+        },
+        {
+          "id": "kd-d5KrKJ",
+          "label": "Swings"
+        },
+        {
+          "id": "kd-nzI0rV",
+          "label": "Sphynx"
+        }
+      ],
+      "subAreas": [
+        {
+          "id": "moon-ringingbells",
+          "name": "2D snowman",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "moon-ringingbells-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "moon-ringingbells-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "moon-quietwall",
+          "name": "Shop",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "moon-quietwall-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "moon-everafter",
+          "name": "Swings",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "moon-everafter-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "moon-everafter-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "moon-weddinghall",
+          "name": "Sphynx",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "moon-weddinghall-d1",
+              "label": "Entrance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mushroom",
+      "name": "Mushroom Kingdom",
+      "doors": [
+        {
+          "id": "mushroom-entry",
+          "label": "Painting (yoshi)"
+        },
+        {
+          "id": "mushroom-paint-warp",
+          "label": "Painting (forest)"
+        },
+        {
+          "id": "mushroom-paint-knucklotec",
+          "label": "Tower (Knucklotec)"
+        },
+        {
+          "id": "mushroom-paint-torkdrift",
+          "label": "Tower (Torkdrift)"
+        },
+        {
+          "id": "mushroom-paint-mechawiggler",
+          "label": "Tower (Mechawiggler)"
+        },
+        {
+          "id": "mushroom-paint-mollusque",
+          "label": "Tower (Octopus)"
+        },
+        {
+          "id": "mushroom-paint-cookatiel",
+          "label": "Tower (Cookatiel)"
+        },
+        {
+          "id": "mushroom-paint-ruined",
+          "label": "Tower (Dragon)"
+        },
+        {
+          "id": "kd-koRm3s",
+          "label": "Rocket"
+        },
+        {
+          "id": "kd-qI7Kyv",
+          "label": "Shop"
+        },
+        {
+          "id": "kd-8j6HKI",
+          "label": "Castle"
+        },
+        {
+          "id": "kd-nllDxF",
+          "label": "Outfit"
+        },
+        {
+          "id": "kd-ar8SsC",
+          "label": "Cloud sea"
+        },
+        {
+          "id": "kd-9k_8G3",
+          "label": "Well"
+        }
+      ],
+      "subAreas": [
+        {
+          "id": "mushroom-castleentrance",
+          "name": "Shop",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "mushroom-castleentrance-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "mushroom-pond",
+          "name": "Castle",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "mushroom-pond-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "mushroom-goombawoods",
+          "name": "Outfit",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "mushroom-goombawoods-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "mushroom-yoshi",
+          "name": "Cloud sea",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "mushroom-yoshi-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "mushroom-mariopic",
+          "name": "Well",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "mushroom-mariopic-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "mushroom-courtyard",
+          "name": "Knucklotec room",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "mushroom-courtyard-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "mushroom-cloudsea",
+          "name": "Torkdrift room",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "mushroom-cloudsea-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "mushroom-moving2d",
+          "name": "Mechawiggler room",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "mushroom-moving2d-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "sa-PoGzn3",
+          "name": "Octopus room",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "d-7dqlGM",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "sa-h16Fcp",
+          "name": "Cookatiel",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "d-UIli6n",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "sa-vRDwcE",
+          "name": "Dragon",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "d-UTqCpl",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "sa-7S7dXh",
+          "name": "Rocket",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "d-moGtwG",
+              "label": "Entrance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "darkside",
+      "name": "Dark Side",
+      "doors": [
+        {
+          "id": "darkside-entry",
+          "label": "Breakdown"
+        },
+        {
+          "id": "kd--NyPcj",
+          "label": "Invisible"
+        },
+        {
+          "id": "kd-Yq_BL-",
+          "label": "Vanishing"
+        },
+        {
+          "id": "kd-eZdh_9",
+          "label": "Yoshi siege"
+        },
+        {
+          "id": "kd-XBCCh6",
+          "label": "Lava rising"
+        },
+        {
+          "id": "kd-BZYVI6",
+          "label": "Magma swamp"
+        }
+      ],
+      "subAreas": [
+        {
+          "id": "darkside-breakdown",
+          "name": "Breakdown road",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "darkside-breakdown-d1",
+              "label": "Entrance"
+            }
+          ]
+        },
+        {
+          "id": "darkside-invisibleroad",
+          "name": "Invisible Road",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "darkside-invisibleroad-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "darkside-invisibleroad-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "darkside-vanishing",
+          "name": "Vanishing Road",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "darkside-vanishing-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "darkside-vanishing-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "darkside-siege",
+          "name": "Yoshi siege",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "darkside-siege-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "darkside-siege-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "darkside-sinkingisland",
+          "name": "Lva rising",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "darkside-sinkingisland-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "darkside-sinkingisland-d2",
+              "label": "Exit"
+            }
+          ]
+        },
+        {
+          "id": "darkside-magmaswamp",
+          "name": "The Magma Swamp",
+          "moonCount": 2,
+          "doors": [
+            {
+              "id": "darkside-magmaswamp-d1",
+              "label": "Entrance"
+            },
+            {
+              "id": "darkside-magmaswamp-d2",
+              "label": "Exit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "darkerside",
+      "name": "Darker Side",
+      "doors": [
+        {
+          "id": "darkerside-entry",
+          "label": "End"
+        }
+      ],
+      "subAreas": [
+        {
+          "id": "darkerside-culmina",
+          "name": "End",
+          "moonCount": 1,
+          "doors": [
+            {
+              "id": "darkerside-culmina-d1",
+              "label": "Entrance"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
